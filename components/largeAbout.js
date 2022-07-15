@@ -23,7 +23,7 @@ const LargeAbout = () => {
             </div>
             <div className="bg-[url('/user.jpeg')] flex-1 h-62 bg-cover bg-center rounded-lg grayscale hover:grayscale-0 hover:cursor-pointer aboutImage"></div>
           </div>
-          <div className="grid grid-flow-col grid-rows-4 gap-8 mt-5">
+          <div className="grid grid-flow-col grid-rows-4 gap-4 mt-5">
             <div>
               <Image src="/nextjs.webp" width={200} height={125} />
             </div>
