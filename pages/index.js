@@ -24,7 +24,9 @@ export default function Home() {
       const aboutImage = this.document.querySelector(".aboutImage")
       const mobAboutHead = this.document.querySelector(".mobAboutHead")
       const mobAboutContent = this.document.querySelector(".mobAboutContent")
+      const mobAboutContentList = this.document.querySelector(".mobAboutContentList")
       const mobAboutImage = this.document.querySelector(".mobAboutImage")
+      const mobAboutImageGrid = this.document.querySelector(".mobAboutImageGrid")
       if (state > lastScroll) {
         console.log("down")
         navbar.classList.add("shadow-sm")
@@ -48,7 +50,9 @@ export default function Home() {
         aboutImage.classList.add("animate-fade-up-3")
         mobAboutHead.classList.add("animate-fade-up-1")
         mobAboutContent.classList.add("animate-fade-up-2")
+        mobAboutContentList.classList.add("animate-fade-up-2")
         mobAboutImage.classList.add("animate-fade-up-3")
+        mobAboutImageGrid.classList.add("animate-fade-up-4")
       }
       else {
         lAbout.classList.add("opacity-0")
@@ -58,7 +62,9 @@ export default function Home() {
         aboutImage.classList.remove("animate-fade-up-3")
         mobAboutHead.classList.remove("animate-fade-up-1")
         mobAboutContent.classList.remove("animate-fade-up-2")
+        mobAboutContentList.classList.add("animate-fade-up-2")
         mobAboutImage.classList.remove("animate-fade-up-3")
+        mobAboutImageGrid.classList.add("animate-fade-up-4")
       }
       lastScroll = state <= 0 ? 0 : state;
     }, false)
@@ -73,10 +79,10 @@ export default function Home() {
       <Preloader />
       <div className="hidden sm:block"><LargeNav /></div>
       <div className="sm:hidden"><MobileNav /></div>
-      <div className="w-full h-auto px-4 py-5 sm:px-10 mt-20 flex flex-col space-y-10">
+      <div className="flex flex-col w-full h-auto px-4 py-5 mt-20 space-y-10 sm:px-10">
         <Hero />
-        <div className="hidden md:block opacity-0 lAbout"><LargeAbout /></div>
-        <div className="md:hidden opacity-0 mAbout"><MobileAbout /></div>
+        <div className="hidden opacity-0 md:block lAbout" id="about"><LargeAbout /></div>
+        <div className="opacity-0 md:hidden mAbout" id="about"><MobileAbout /></div>
       </div>
     </div>
   )

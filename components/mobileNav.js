@@ -8,7 +8,7 @@ export default function MobileNav() {
     }
     return(
         <div className="flex">
-            <div className="fixed top-0 flex items-center justify-between w-full h-16 px-4 text-4xl font-semibold bg-transparent shadow-zinc-900 backdrop-blur-sm mobNav">
+            <div className="fixed top-0 z-50 flex items-center justify-between w-full h-16 px-4 text-4xl font-semibold bg-transparent shadow-zinc-900 backdrop-blur-sm mobNav">
                 <div>
                     <Image src="/logo.png" width={40} height={40} />
                 </div>
@@ -39,7 +39,7 @@ export default function MobileNav() {
                         </button>
                     </div>
                     <div className="flex flex-col justify-between flex-grow">
-                        <Link href="/">
+                        <Link href="#about">
                             <a>
                                 <button className="flex items-center p-4 space-x-2">
                                     <div className="text-base text-gold">01.</div>
