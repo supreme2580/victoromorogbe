@@ -81,8 +81,8 @@ export default function Home() {
       <div className="sm:hidden"><MobileNav /></div>
       <div className="flex flex-col w-full h-auto px-4 py-5 mt-20 space-y-10 sm:px-10">
         <Hero />
-        <div className="hidden opacity-0 md:block lAbout" id="about"><LargeAbout /></div>
-        <div className="opacity-0 md:hidden mAbout" id="about"><MobileAbout /></div>
+        <div className="hidden opacity-0 md:block lAbout" id="lAbout"><LargeAbout /></div>
+        <div className="opacity-0 md:hidden mAbout" id="mAbout"><MobileAbout /></div>
       </div>
     </div>
   )

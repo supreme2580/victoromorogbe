@@ -39,7 +39,7 @@ export default function MobileNav() {
                         </button>
                     </div>
                     <div className="flex flex-col justify-between flex-grow">
-                        <Link href="#about">
+                        <Link href="#mAbout">
                             <a>
                                 <button className="flex items-center p-4 space-x-2">
                                     <div className="text-base text-gold">01.</div>

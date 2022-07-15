@@ -9,7 +9,7 @@ export default function LargeNav() {
             </div>
             <div className="flex space-x-10 md:space-x-20">
                 <div className="animate-fade-down-1">
-                    <Link href="#about">
+                    <Link href="#lAbout">
                         <a>
                             <div className="flex items-center space-x-2">
                                 <div className="text-base text-gold 2xl:text-2xl">01.</div>
