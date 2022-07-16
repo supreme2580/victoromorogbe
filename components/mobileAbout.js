@@ -18,51 +18,39 @@ const MobileAbout = () => {
             </div>
             <div className="bg-[url('/user.jpeg')] p-32 sm:p-64 bg-cover bg-center rounded-lg  grayscale hover:grayscale-0 hover:cursor-pointer mobAboutImage"></div>
             <div className="text-white mobAboutContentList">Here are a few technologies I’ve been working with recently:</div>
-          <div className="grid grid-flow-col grid-rows-5 gap-4 mt-5 mobAboutImageGrid">
-            <div>
-              <Image src="/nextjs.webp" width={200} height={125} />
+          <div className="flex flex-col space-y-4 mt-5 mobAboutImageGrid">
+            <div className="bg-[url('/nextjs.webp')] p-20 bg-center bg-cover grid group hover:cursor-pointer hover:bg-black hover:bg-[url('')] bg-no-repeat">
+              <div className="place-self-center opacity-0 group-hover:opacity-100 group-hover:text-white font-semibold text-2xl uppercase">Next Js</div>
             </div>
-            <div>
-              <Image src="/reactjs.webp" width={200} height={125} />
+            <div className="bg-[url('/reactjs.webp')] p-20 bg-center bg-cover grid group hover:cursor-pointer hover:bg-blue-700 hover:bg-[url('')] bg-no-repeat">
+              <div className="place-self-center opacity-0 group-hover:opacity-100 group-hover:text-white font-semibold text-2xl uppercase">React Js</div>
             </div>
-            <div>
-              <Image src="/html.webp" width={200} height={125} />
+            <div className="bg-[url('/html.webp')] p-20 bg-center bg-cover grid group hover:cursor-pointer hover:bg-orange-500 hover:bg-[url('')] bg-no-repeat">
+              <div className="place-self-center opacity-0 group-hover:opacity-100 group-hover:text-white font-semibold text-2xl uppercase">Html</div>
             </div>
-            <div>
-              <Image src="/css.webp" width={200} height={125} />
+            <div className="bg-[url('/css.webp')] p-20 bg-center bg-contain bg-no-repeat grid group hover:cursor-pointer hover:bg-blue-500 hover:bg-[url('')]">
+              <div className="place-self-center opacity-0 group-hover:opacity-100 group-hover:text-white font-semibold text-2xl uppercase">React Js</div>
             </div>
-            <div>
-              <Image src="/js.webp" width={200} height={125} />
+            <div className="bg-[url('/js.webp')] p-20 bg-center bg-cover grid group hover:cursor-pointer hover:bg-yellow-500 hover:bg-[url('')] bg-no-repeat">
+              <div className="place-self-center opacity-0 group-hover:opacity-100 group-hover:text-white font-semibold text-2xl uppercase">Javascript</div>
             </div>
-            <div>
-              <Image src="/tailwindcss.webp" width={200} height={125} />
+            <div className="bg-[url('/tailwindcss.webp')] p-20 bg-center bg-cover grid group hover:cursor-pointer hover:bg-purple-900 hover:bg-[url('')] bg-no-repeat">
+              <div className="place-self-center opacity-0 group-hover:opacity-100 group-hover:text-white font-semibold text-2xl uppercase">Tailwindcss</div>
             </div>
-            <div>
-              <Image src="/sanity.webp" width={200} height={125} />
+            <div className="bg-[url('/sanity.webp')] p-20 bg-center bg-cover grid group hover:cursor-pointer hover:bg-red-600 hover:bg-[url('')] bg-no-repeat">
+              <div className="place-self-center opacity-0 group-hover:opacity-100 group-hover:text-white font-semibold text-2xl uppercase">Sanity</div>
             </div>
-            <div>
-              <Image src="/graphql.webp" width={200} height={125} />
+            <div className="bg-[url('/graphql.webp')] p-20 bg-center bg-cover grid group hover:cursor-pointer hover:bg-black hover:bg-[url('')] bg-no-repeat">
+              <div className="place-self-center opacity-0 group-hover:opacity-100 group-hover:text-purple-800 font-semibold text-2xl uppercase">GraphQL</div>
             </div>
-            <div>
-              <Image src="/solidity.webp" width={200} height={125} />
+            <div className="bg-[url('/solidity.png')] bg-white p-20 bg-center bg-auto bg-no-repeat grid group hover:cursor-pointer hover:bg-white hover:bg-[url('')]">
+              <div className="place-self-center opacity-0 group-hover:opacity-100 group-hover:text-black font-semibold text-2xl uppercase">Solidity</div>
             </div>
-            <div>
-              <Image src="/java.webp" width={200} height={125} />
+            <div className="bg-[url('/java.webp')] p-20 bg-center bg-cover grid group hover:cursor-pointer hover:bg-red-500 hover:bg-[url('')] bg-no-repeat">
+              <div className="place-self-center opacity-0 group-hover:opacity-100 group-hover:text-white font-semibold text-2xl uppercase">Java</div>
             </div>
-            <div>
-              <Image src="/xml.webp" width={200} height={125} />
-            </div>
-            <div>
-              <Image src="/mapbox.webp" width={200} height={125} />
-            </div>
-            <div>
-              <Image src="/mysql.webp" width={200} height={125} />
-            </div>
-            <div>
-              <Image src="/nodejs.webp" width={200} height={125} />
-            </div>
-            <div>
-              <Image src="/php.webp" width={200} height={125} />
+            <div className="bg-[url('/nodejs.webp')] p-20 bg-center bg-cover grid group hover:cursor-pointer hover:bg-lime-500 hover:bg-[url('')] bg-no-repeat">
+              <div className="place-self-center opacity-0 group-hover:opacity-100 group-hover:text-black font-semibold text-2xl uppercase">Node Js</div>
             </div>
           </div>
         </div>
