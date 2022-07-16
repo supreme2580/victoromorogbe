@@ -8,7 +8,7 @@ const LargeAbout = () => {
                 <div className="text-4xl font-semibold text-white 2xl:text-6xl">About Me</div>
               </div>
               <div className="text-white aboutContent md:max-w-sm lg:max-w-lg xl:text-2xl xl:max-w-xl 2xl:max-w-3xl 2xl:text-4xl">
-                Hello! My name is Victor and I enjoy creating things that live on the internet. My interest in technology (in general) started back in when I was a kid from cartoons such as <span className="text-gold">jimmy neutron</span> — turns put it is tougher and more interesting than I saw in movies, so I scoured the 
+                Hello! My name is Victor and I enjoy creating things that live on the internet. My interest in technology (in general) started back in when I was a kid from cartoons such as <span className="text-gold">jimmy neutron</span> — turns out it is tougher and more interesting than I saw in movies, so I scoured the 
 
                 internet for what I can do in tech and I found web development, I started by learning html and css and it feels like I was born to do this and it all just makes sense to me.
 

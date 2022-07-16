@@ -8,7 +8,7 @@ const MobileAbout = () => {
                 <div className="text-2xl font-semibold text-white">About Me</div>
             </div>
             <div className="flex flex-col space-y-4 text-white mobAboutContent">
-                Hello! My name is Victor and I enjoy creating things that live on the internet. My interest in technology (in general) started back in when I was a kid from cartoons such as <span className="text-gold">jimmy neutron</span> — turns put it is tougher and more interesting than I saw in movies, so I scoured the 
+                Hello! My name is Victor and I enjoy creating things that live on the internet. My interest in technology (in general) started back in when I was a kid from cartoons such as <span className="text-gold">jimmy neutron</span> — turns out it is tougher and more interesting than I saw in movies, so I scoured the 
 
                 internet for what I can do in tech and I found web development, I started by learning html and css and it feels like I was born to do this and it all just makes sense to me.
 
