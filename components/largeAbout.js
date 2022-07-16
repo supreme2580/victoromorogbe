@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 const LargeAbout = () => {
     return (
         <div className="flex flex-col space-y-5 md:mx-18 lg:mx-42">
@@ -23,7 +21,7 @@ const LargeAbout = () => {
             </div>
             <div className="bg-[url('/user.jpeg')] flex-1 h-62 bg-cover bg-center rounded-lg grayscale hover:grayscale-0 hover:cursor-pointer aboutImage"></div>
           </div>
-          <div className="grid grid-flow-col grid-rows-4 gap-4 mt-5">
+          <div className="grid grid-flow-col grid-rows-4 gap-4 mt-5 aboutImageGrid">
             <div className="bg-[url('/nextjs.webp')] p-20 bg-center bg-cover grid group hover:cursor-pointer hover:bg-black hover:bg-[url('')] bg-no-repeat">
               <div className="place-self-center opacity-0 group-hover:opacity-100 group-hover:text-white font-semibold text-2xl uppercase">Next Js</div>
             </div>

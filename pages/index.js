@@ -22,23 +22,21 @@ export default function Home() {
       const aboutHead = this.document.querySelector(".aboutHead")
       const aboutContent = this.document.querySelector(".aboutContent")
       const aboutImage = this.document.querySelector(".aboutImage")
+      const aboutImageGrid = this.document.querySelector(".aboutImageGrid")
       const mobAboutHead = this.document.querySelector(".mobAboutHead")
       const mobAboutContent = this.document.querySelector(".mobAboutContent")
       const mobAboutContentList = this.document.querySelector(".mobAboutContentList")
       const mobAboutImage = this.document.querySelector(".mobAboutImage")
       const mobAboutImageGrid = this.document.querySelector(".mobAboutImageGrid")
       if (state > lastScroll) {
-        console.log("down")
         navbar.classList.add("shadow-sm")
         mobNav.classList.add("shadow-sm")
       }
       else if (state == 0) {
-        console.log("top")
         navbar.classList.remove("shadow-sm")
         mobNav.classList.remove("shadow-sm")
       }
       else {
-        console.log("up")
         navbar.classList.remove("shadow-sm")
         mobNav.classList.remove("shadow-sm")
       }
@@ -53,6 +51,7 @@ export default function Home() {
         mobAboutContentList.classList.add("animate-fade-up-2")
         mobAboutImage.classList.add("animate-fade-up-3")
         mobAboutImageGrid.classList.add("animate-fade-up-4")
+        aboutImageGrid.classList.add("animate-fade-up-4")
       }
       else {
         lAbout.classList.add("opacity-0")
@@ -64,7 +63,8 @@ export default function Home() {
         mobAboutContent.classList.remove("animate-fade-up-2")
         mobAboutContentList.classList.add("animate-fade-up-2")
         mobAboutImage.classList.remove("animate-fade-up-3")
-        mobAboutImageGrid.classList.add("animate-fade-up-4")
+        mobAboutImageGrid.classList.remove("animate-fade-up-4")
+        aboutImageGrid.classList.remove("animate-fade-up-4")
       }
       lastScroll = state <= 0 ? 0 : state;
     }, false)
