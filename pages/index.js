@@ -15,6 +15,7 @@ export default function Home() {
     var lastScroll = 0
     window.addEventListener('scroll', function () {
       var state = window.pageYOffset || this.document.documentElement.scrollTop
+      const hero = this.document.querySelector(".hero")
       const navbar = this.document.querySelector(".nav")
       const mobNav = this.document.querySelector(".mobNav")
       const lAbout = this.document.querySelector(".lAbout")
@@ -41,6 +42,7 @@ export default function Home() {
         mobNav.classList.remove("shadow-sm")
       }
       if (state >= 50) {
+        hero.classList.add("opacity-20")
         lAbout.classList.remove("opacity-0")
         mAbout.classList.remove("opacity-0")
         aboutHead.classList.add("animate-fade-up-1")
@@ -54,6 +56,7 @@ export default function Home() {
         aboutImageGrid.classList.add("animate-fade-up-4")
       }
       else {
+        hero.classList.remove("opacity-20")
         lAbout.classList.add("opacity-0")
         mAbout.classList.add("opacity-0")
         aboutHead.classList.remove("animate-fade-up-1")

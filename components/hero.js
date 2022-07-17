@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Hero = () => {
     return(
-        <div className="flex lg:space-x-20 justify-between">
+        <div className="flex lg:space-x-20 justify-between hero">
           <div className="hidden lg:flex flex-col space-y-10 2xl:space-y-12">
             <div className="animate-fade-up-1">
               <Link href="/">

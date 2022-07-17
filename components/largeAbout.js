@@ -1,6 +1,6 @@
 const LargeAbout = () => {
     return (
-        <div className="flex flex-col space-y-5 md:mx-18 lg:mx-42">
+        <div className="flex flex-col space-y-5 md:mx-18 lg:mx-42 mt-20">
           <div className="flex justify-between space-x-4">
             <div className="flex flex-col space-y-3">
               <div className="flex items-center space-x-4 aboutHead">
@@ -31,8 +31,8 @@ const LargeAbout = () => {
             <div className="bg-[url('/html.webp')] p-20 bg-center bg-cover grid group hover:cursor-pointer hover:bg-orange-500 hover:bg-[url('')] bg-no-repeat">
               <div className="place-self-center opacity-0 group-hover:opacity-100 group-hover:text-white font-semibold text-2xl uppercase">Html</div>
             </div>
-            <div className="bg-[url('/css.webp')] p-20 bg-center bg-contain bg-no-repeat grid group hover:cursor-pointer hover:bg-blue-500 hover:bg-[url('')]">
-              <div className="place-self-center opacity-0 group-hover:opacity-100 group-hover:text-white font-semibold text-2xl uppercase">React Js</div>
+            <div className="bg-[url('/css.webp')] p-20 bg-center bg-contain bg-no-repeat grid group hover:cursor-pointer hover:bg-black hover:bg-[url('')]">
+              <div className="place-self-center opacity-0 group-hover:opacity-100 group-hover:text-blue-500 font-semibold text-2xl uppercase">CSS</div>
             </div>
             <div className="bg-[url('/js.webp')] p-20 bg-center bg-cover grid group hover:cursor-pointer hover:bg-yellow-500 hover:bg-[url('')] bg-no-repeat">
               <div className="place-self-center opacity-0 group-hover:opacity-100 group-hover:text-white font-semibold text-2xl uppercase">Javascript</div>
@@ -54,6 +54,9 @@ const LargeAbout = () => {
             </div>
             <div className="bg-[url('/nodejs.webp')] p-20 bg-center bg-cover grid group hover:cursor-pointer hover:bg-lime-500 hover:bg-[url('')] bg-no-repeat">
               <div className="place-self-center opacity-0 group-hover:opacity-100 group-hover:text-black font-semibold text-2xl uppercase">Node Js</div>
+            </div>
+            <div className="bg-[url('/wordpress.webp')] p-20 bg-center bg-cover grid group hover:cursor-pointer hover:bg-blue-500 hover:bg-[url('')] bg-no-repeat">
+              <div className="place-self-center opacity-0 group-hover:opacity-100 group-hover:text-white font-semibold text-2xl uppercase">Wordpress</div>
             </div>
           </div>
         </div>

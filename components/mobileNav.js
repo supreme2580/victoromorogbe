@@ -40,34 +40,34 @@ export default function MobileNav() {
                     </div>
                     <div className="flex flex-col justify-between flex-grow">
                         <Link href="#mAbout">
-                            <a>
+                            <a className="group">
                                 <button className="flex items-center p-4 space-x-2">
                                     <div className="text-base text-gold">01.</div>
-                                    <div className="text-lg text-white">About</div>
+                                    <div className="text-lg text-zinc-300 group-hover:text-white">About</div>
                                 </button>
                             </a>
                         </Link>
                         <Link href="/">
-                            <a>
+                            <a className="group">
                                 <button className="flex items-center p-4 space-x-2">
                                     <div className="text-base text-gold">02.</div>
-                                    <div className="text-lg text-white">Experience</div>
+                                    <div className="text-lg text-zinc-300 group-hover:text-white">Experience</div>
                                 </button>
                             </a>
                         </Link>
                         <Link href="/">
-                            <a>
+                            <a className="group">
                                 <button className="flex items-center p-4 space-x-2">
                                     <div className="text-base text-gold">03.</div>
-                                    <div className="text-lg text-white">Work</div>
+                                    <div className="text-lg text-zinc-300 group-hover:text-white">Work</div>
                                 </button>
                             </a>
                         </Link>
                         <Link href="/">
-                            <a>
+                            <a className="group">
                                 <button className="flex items-center p-4 space-x-2">
                                     <div className="text-base text-gold">04.</div>
-                                    <div className="text-lg text-white">Contact</div>
+                                    <div className="text-lg text-zinc-300 group-hover:text-white">Contact</div>
                                 </button>
                             </a>
                         </Link>
