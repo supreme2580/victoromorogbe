@@ -1,21 +1,53 @@
+import Link from "next/link"
+
 const Experience = () => {
+
     return(
-        <div className="flex flex-col">
+        <div className="flex flex-col mt-10">
             <div className="flex items-center space-x-4 aboutHead">
-                <div className="text-xl font-semibold 2xl:text-4xl text-gold">02.</div>
-                <div className="text-4xl font-semibold text-white 2xl:text-6xl">Where I've Worked</div>
+                <div className="text-lg sm:text-xl font-semibold 2xl:text-4xl text-gold">02.</div>
+                <div className="text-2xl sm:text-4xl font-semibold text-white 2xl:text-6xl">Where I've Worked</div>
             </div>
-            <div className="flex w-full space-x-10 mt-10">
-                <div className="flex flex-col space-y-2">
-                    <div className="text-zinc-200 text-lg py-3 px-5 hover:bg-zinc-400">Bankless Africa</div>
-                    <div>Spade</div>
+            <div className="flex flex-wrap justify-between space-y-5 mt-5">
+                <div className="flex items-center space-x-4 max-w-lg">
+                    <div className="flex items-center border-gold border-2 px-2.5 py-0.5 sm:px-5 sm:py-3 rounded-full">
+                        <div className="text-base font-semibold 2xl:text-2xl text-gold">i.</div>
+                    </div>
+                    <div className="flex flex-col w-full">
+                        <div className="text-xl font-semibold text-white sm:text-3xl">
+                            <span className="text-gold">Developer @ </span>Bankless Africa
+                        </div>
+                        <div className="text-white font-base text-base sm:text-lg">Going Bankless is about freedom. Freedom to build wealth. It’s about accessing the new monetary system that is open to everyone regardless of your colour, location, gender etc.</div>
+                        <div className="text-gold font-base text-base">
+                        {
+                            //if ongoing hide visit me
+                        }
+                            <Link href="https://banklessafrica.com">
+                                <a target="blank">Visit bankless africa here</a>
+                            </Link>
+                        </div>
+                        <div className="text-green-500">Completed</div>
+                    </div>
                 </div>
-                <div className="bg-gold w-0.5 h-auto"></div>
-                <div>
-                    <div>Date</div>
-                    <div>Developer</div>
-                    <div>Description</div>
-                    <div>Status</div>
+                <div className="flex items-center space-x-4 max-w-lg">
+                    <div className="flex items-center border-gold border-2 px-2.5 py-0.5 sm:px-5 sm:py-3 rounded-full">
+                        <div className="text-base font-semibold 2xl:text-2xl text-gold">i.</div>
+                    </div>
+                    <div className="flex flex-col w-full">
+                        <div className="text-xl font-semibold text-white sm:text-3xl">
+                            <span className="text-gold">Developer @ </span>Bankless Africa
+                        </div>
+                        <div className="text-white font-base text-base">Going Bankless is about freedom. Freedom to build wealth. It’s about accessing the new monetary system that is open to everyone regardless of your colour, location, gender etc.</div>
+                        <div className="text-gold font-base text-base">
+                        {
+                            //if ongoing hide visit me
+                        }
+                            <Link href="https://banklessafrica.com">
+                                <a>Visit bankless africa here</a>
+                            </Link>
+                        </div>
+                        <div className="text-green-500">Completed</div>
+                    </div>
                 </div>
             </div>
         </div>
