@@ -5,6 +5,7 @@ import Preloader from "../components/preloader";
 import Hero from "../components/hero";
 import LargeAbout from "../components/largeAbout";
 import MobileAbout from "../components/mobileAbout";
+import Experience from "../components/experience";
 
 export default function Home() {
   if (typeof window !== "undefined") {
@@ -86,6 +87,7 @@ export default function Home() {
         <Hero />
         <div className="hidden opacity-0 md:block lAbout" id="lAbout"><LargeAbout /></div>
         <div className="opacity-0 md:hidden mAbout" id="mAbout"><MobileAbout /></div>
+        <div id="experience"><Experience /></div>
       </div>
     </div>
   )
