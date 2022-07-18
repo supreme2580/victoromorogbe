@@ -28,7 +28,7 @@ const MobileAbout = () => {
             <div className="bg-[url('/html.webp')] p-20 bg-center bg-cover grid group hover:cursor-pointer hover:bg-orange-500 hover:bg-[url('')] bg-no-repeat">
               <div className="place-self-center opacity-0 group-hover:opacity-100 group-hover:text-white font-semibold text-2xl uppercase">Html</div>
             </div>
-            <div className="bg-[url('/css.webp')] p-20 bg-center bg-contain bg-no-repeat grid group hover:cursor-pointer hover:bg-black hover:bg-[url('')]">
+            <div className="bg-[url('/css.webp')] p-20 bg-center bg-cover grid group hover:cursor-pointer hover:bg-black hover:bg-[url('')] bg-no-repeat">
               <div className="place-self-center opacity-0 group-hover:opacity-100 group-hover:text-blue-500 font-semibold text-2xl uppercase">Css</div>
             </div>
             <div className="bg-[url('/js.webp')] p-20 bg-center bg-cover grid group hover:cursor-pointer hover:bg-yellow-500 hover:bg-[url('')] bg-no-repeat">

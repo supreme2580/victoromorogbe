@@ -30,20 +30,20 @@ const Experience = () => {
                     </div>
                 </div>
                 <div className="flex items-center space-x-4 max-w-lg">
-                    <div className="flex items-center border-gold border-2 px-2.5 py-0.5 sm:px-5 sm:py-3 rounded-full">
-                        <div className="text-base font-semibold 2xl:text-2xl text-gold">i.</div>
+                    <div className="flex items-center border-gold border-2 px-2.5 py-0.5 sm:px-5 sm:py-3.5 rounded-full">
+                        <div className="text-base font-semibold 2xl:text-2xl text-gold">ii.</div>
                     </div>
                     <div className="flex flex-col w-full">
                         <div className="text-xl font-semibold text-white sm:text-3xl">
                             <span className="text-gold">Developer @ </span>Bankless Africa
                         </div>
-                        <div className="text-white font-base text-base">Going Bankless is about freedom. Freedom to build wealth. It’s about accessing the new monetary system that is open to everyone regardless of your colour, location, gender etc.</div>
+                        <div className="text-white font-base text-base sm:text-lg">Going Bankless is about freedom. Freedom to build wealth. It’s about accessing the new monetary system that is open to everyone regardless of your colour, location, gender etc.</div>
                         <div className="text-gold font-base text-base">
                         {
                             //if ongoing hide visit me
                         }
                             <Link href="https://banklessafrica.com">
-                                <a>Visit bankless africa here</a>
+                                <a target="blank">Visit bankless africa here</a>
                             </Link>
                         </div>
                         <div className="text-green-500">Completed</div>
