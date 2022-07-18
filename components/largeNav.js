@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function LargeNav() {
     return(
-        <div className="fixed top-0 z-50 flex items-center justify-between w-full h-20 px-10 space-x-4 text-4xl font-semibold bg-transparent shadow-zinc-900 backdrop-blur-md nav">
+        <div className="fixed top-0 z-20 flex items-center justify-between w-full h-20 px-10 space-x-4 text-4xl font-semibold bg-transparent shadow-zinc-900 backdrop-blur-md nav">
             <div>
-                <Image src="/logo.png" width={60} height={60} />
+                <Image src="/logo.png" alt="logo" width={60} height={60} />
             </div>
             <div className="flex space-x-10 md:space-x-20">
                 <div className="animate-fade-down-1">

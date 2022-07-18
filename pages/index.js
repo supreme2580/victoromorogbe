@@ -88,7 +88,7 @@ export default function Home() {
         <Hero />
         <div className="hidden opacity-0 md:block lAbout" id="lAbout"><LargeAbout /></div>
         <div className="opacity-0 md:hidden mAbout" id="mAbout"><MobileAbout /></div>
-        <div id="experience"><Experience /></div>
+        <div className="animate-fade-up-4" id="experience"><Experience /></div>
       </div>
     </div>
   )
