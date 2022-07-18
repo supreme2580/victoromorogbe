@@ -17,7 +17,7 @@ const Experience = () => {
                         <div className="text-xl font-semibold text-white sm:text-3xl">
                             <span className="text-gold">Developer @ </span>Bankless Africa
                         </div>
-                        <div className="text-white font-base text-base sm:text-lg">Going Bankless is about freedom. Freedom to build wealth. It’s about accessing the new monetary system that is open to everyone regardless of your colour, location, gender etc.</div>
+                        <div className="text-white font-base text-base sm:text-lg">Going Bankless is about freedom. Freedom to build wealth. It&apos;s about accessing the new monetary system that is open to everyone regardless of your colour, location, gender etc.</div>
                         <div className="text-gold font-base text-base">
                         {
                             //if ongoing hide visit me
@@ -37,7 +37,7 @@ const Experience = () => {
                         <div className="text-xl font-semibold text-white sm:text-3xl">
                             <span className="text-gold">Developer @ </span>Bankless Africa
                         </div>
-                        <div className="text-white font-base text-base sm:text-lg">Going Bankless is about freedom. Freedom to build wealth. It’s about accessing the new monetary system that is open to everyone regardless of your colour, location, gender etc.</div>
+                        <div className="text-white font-base text-base sm:text-lg">Going Bankless is about freedom. Freedom to build wealth. It&apos;s about accessing the new monetary system that is open to everyone regardless of your colour, location, gender etc.</div>
                         <div className="text-gold font-base text-base">
                         {
                             //if ongoing hide visit me
