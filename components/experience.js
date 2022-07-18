@@ -6,7 +6,7 @@ const Experience = () => {
         <div className="flex flex-col mt-10">
             <div className="flex items-center space-x-4 aboutHead">
                 <div className="text-lg sm:text-xl font-semibold 2xl:text-4xl text-gold">02.</div>
-                <div className="text-2xl sm:text-4xl font-semibold text-white 2xl:text-6xl">Where I've Worked</div>
+                <div className="text-2xl sm:text-4xl font-semibold text-white 2xl:text-6xl">Where I&apos;ve Worked</div>
             </div>
             <div className="flex flex-wrap justify-between space-y-5 mt-5">
                 <div className="flex items-center space-x-4 max-w-lg">
