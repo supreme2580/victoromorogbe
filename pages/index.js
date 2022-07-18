@@ -16,6 +16,7 @@ export default function Home() {
     var lastScroll = 0
     window.addEventListener('scroll', function () {
       var state = window.pageYOffset || this.document.documentElement.scrollTop
+      console.log(state)
       const hero = this.document.querySelector(".hero")
       const navbar = this.document.querySelector(".nav")
       const mobNav = this.document.querySelector(".mobNav")

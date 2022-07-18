@@ -47,7 +47,7 @@ export default function MobileNav() {
                                 </button>
                             </a>
                         </Link>
-                        <Link href="/">
+                        <Link href="#experience">
                             <a className="group">
                                 <button className="flex items-center p-4 space-x-2">
                                     <div className="text-base text-gold">02.</div>

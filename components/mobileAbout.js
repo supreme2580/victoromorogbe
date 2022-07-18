@@ -1,6 +1,4 @@
-import Image from "next/image"
-
-const MobileAbout = () => {
+export default function MobileAbout() {
     return(
         <div className="flex flex-col space-y-4 mt-20">
             <div className="flex items-center space-x-2 mobAboutHead">
@@ -16,7 +14,7 @@ const MobileAbout = () => {
 
                 My main focus these days is building fast, easily accessible, responsive and high quality products for small, medium and big scale companies and clients. I feel I was born to code so I am very passionate about it.
             </div>
-            <div className="bg-[url('/user.jpeg')] p-32 sm:p-64 bg-cover bg-center rounded-lg  grayscale hover:grayscale-0 hover:cursor-pointer mobAboutImage"></div>
+            <div className="bg-[url('/user.jpeg')] p-32 sm:p-64 bg-cover bg-center rounded-lg grayscale hover:grayscale-0 hover:cursor-pointer mobAboutImage"></div>
             <div className="text-white mobAboutContentList">Here are a few technologies I’ve been working with recently:</div>
           <div className="flex flex-col space-y-4 mt-5 mobAboutImageGrid">
             <div className="bg-[url('/nextjs.webp')] p-20 bg-center bg-cover grid group hover:cursor-pointer hover:bg-black hover:bg-[url('')] bg-no-repeat">
@@ -59,5 +57,3 @@ const MobileAbout = () => {
         </div>
     )
 }
-
-export default MobileAbout

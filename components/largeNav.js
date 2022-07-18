@@ -19,7 +19,7 @@ export default function LargeNav() {
                     </Link>
                 </div>
                 <div className="animate-fade-down-2">
-                    <Link href="/">
+                    <Link href="#experience">
                         <a className="group">
                             <div className="flex items-center space-x-2">
                                 <div className="text-base text-gold 2xl:text-2xl">02.</div>
